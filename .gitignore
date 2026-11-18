@@ -1,0 +1,11 @@
+.vercel
+.env
+.env.*
+node_modules
+*.pem
+*.key
+node_modules/
+.vercel/
+.netlify/
+.DS_Store
+*.log

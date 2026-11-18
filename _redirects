@@ -1,0 +1,10 @@
+# Server functions (Netlify). The "!" forces these rules even where a file exists, so server source is never served.
+/api/*            /.netlify/functions/api/:splat   200!
+/netlify/*        /404.html                        404!
+/test/*           /404.html                        404!
+/docs/*           /404.html                        404!
+/.github/*        /404.html                        404!
+/README.md        /404.html                        404!
+/package.json     /404.html                        404!
+/vercel.json      /404.html                        404!
+/netlify.toml     /404.html                        404!

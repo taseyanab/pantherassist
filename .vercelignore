@@ -1,0 +1,9 @@
+README.md
+.env
+.env.*
+*.bak
+test
+netlify
+netlify.toml
+_redirects
+_headers

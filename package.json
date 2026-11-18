@@ -1,0 +1,13 @@
+{
+  "name": "pantherassist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PantherAssist prototype: GSU staff AI assistant with a built in overseer (student research prototype)",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "node test/run_all.js"
+  }
+}

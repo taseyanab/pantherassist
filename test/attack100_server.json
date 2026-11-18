@@ -1,0 +1,362 @@
+[
+ {
+  "n": 1,
+  "cat": "Sessions",
+  "name": "Forge a security analyst session by swapping the signed body",
+  "held": true
+ },
+ {
+  "n": 2,
+  "cat": "Sessions",
+  "name": "Escalate own roles to manager in the cookie",
+  "held": true
+ },
+ {
+  "n": 3,
+  "cat": "Sessions",
+  "name": "Extend own session expiry by a year",
+  "held": true
+ },
+ {
+  "n": 4,
+  "cat": "Sessions",
+  "name": "Token with the signature removed",
+  "held": true
+ },
+ {
+  "n": 5,
+  "cat": "Sessions",
+  "name": "Token with an empty signature",
+  "held": true
+ },
+ {
+  "n": 6,
+  "cat": "Sessions",
+  "name": "Token with a random signature",
+  "held": true
+ },
+ {
+  "n": 7,
+  "cat": "Sessions",
+  "name": "Pre MFA cookie used as a full session",
+  "held": true
+ },
+ {
+  "n": 8,
+  "cat": "Sessions",
+  "name": "Session cookie without the __Host- prefix",
+  "held": true
+ },
+ {
+  "n": 9,
+  "cat": "Sessions",
+  "name": "Garbage cookie value",
+  "held": true
+ },
+ {
+  "n": 10,
+  "cat": "Sessions",
+  "name": "Reuse a session token after signing out",
+  "held": true
+ },
+ {
+  "n": 11,
+  "cat": "Sign in",
+  "name": "SQL injection in CampusID: ' OR 1=1 --",
+  "held": true
+ },
+ {
+  "n": 12,
+  "cat": "Sign in",
+  "name": "SQL injection in CampusID: admin'--",
+  "held": true
+ },
+ {
+  "n": 13,
+  "cat": "Sign in",
+  "name": "SQL injection in CampusID: x\"; DROP TABLE users; --",
+  "held": true
+ },
+ {
+  "n": 14,
+  "cat": "Sign in",
+  "name": "SQL injection in CampusID: jblake7' UNION SELECT *--",
+  "held": true
+ },
+ {
+  "n": 15,
+  "cat": "Sign in",
+  "name": "SQL injection in CampusID: %27%20OR%201%3D1",
+  "held": true
+ },
+ {
+  "n": 16,
+  "cat": "Sign in",
+  "name": "NoSQL operator object as password",
+  "held": true
+ },
+ {
+  "n": 17,
+  "cat": "Sign in",
+  "name": "Password sent as an array",
+  "held": true
+ },
+ {
+  "n": 18,
+  "cat": "Sign in",
+  "name": "Extra admin field (mass assignment)",
+  "held": true
+ },
+ {
+  "n": 19,
+  "cat": "Sign in",
+  "name": "10,000 character password",
+  "held": true
+ },
+ {
+  "n": 20,
+  "cat": "Sign in",
+  "name": "Null byte in CampusID",
+  "held": true
+ },
+ {
+  "n": 21,
+  "cat": "Sign in",
+  "name": "Malformed JSON body",
+  "held": true
+ },
+ {
+  "n": 22,
+  "cat": "Sign in",
+  "name": "Plain text content type (CSRF style)",
+  "held": true
+ },
+ {
+  "n": 23,
+  "cat": "Sign in",
+  "name": "Cross origin request from another site",
+  "held": true
+ },
+ {
+  "n": 24,
+  "cat": "Sign in",
+  "name": "Tell real CampusIDs from fake ones by the error message",
+  "held": true
+ },
+ {
+  "n": 25,
+  "cat": "Sign in",
+  "name": "Brute force a password while rotating IP addresses",
+  "held": true
+ },
+ {
+  "n": 26,
+  "cat": "Duo",
+  "name": "Guess the Duo number by trying all 90 values",
+  "held": true
+ },
+ {
+  "n": 27,
+  "cat": "Duo",
+  "name": "Finish Duo without a pre sign in cookie",
+  "held": true
+ },
+ {
+  "n": 28,
+  "cat": "Duo",
+  "name": "Letters instead of a Duo number",
+  "held": true
+ },
+ {
+  "n": 29,
+  "cat": "Duo",
+  "name": "Three digit Duo number",
+  "held": true
+ },
+ {
+  "n": 30,
+  "cat": "Duo",
+  "name": "Rewrite the expected Duo number inside the cookie",
+  "held": true
+ },
+ {
+  "n": 31,
+  "cat": "Duo",
+  "name": "Replay a used pre sign in cookie to get a second session",
+  "held": true
+ },
+ {
+  "n": 32,
+  "cat": "AI endpoint",
+  "name": "Call the AI with no session",
+  "held": true
+ },
+ {
+  "n": 33,
+  "cat": "AI endpoint",
+  "name": "Use the AI as a free open proxy (arbitrary prompt)",
+  "held": true
+ },
+ {
+  "n": 34,
+  "cat": "AI endpoint",
+  "name": "Guard mode without the expected message wrapper",
+  "held": true
+ },
+ {
+  "n": 35,
+  "cat": "AI endpoint",
+  "name": "Pick an unapproved model tier",
+  "held": true
+ },
+ {
+  "n": 36,
+  "cat": "AI endpoint",
+  "name": "Flood with a 30,000 character prompt",
+  "held": true
+ },
+ {
+  "n": 37,
+  "cat": "AI endpoint",
+  "name": "Extra hidden parameter in the request",
+  "held": true
+ },
+ {
+  "n": 38,
+  "cat": "AI endpoint",
+  "name": "Jailbreak: ignore previous instructions",
+  "held": true
+ },
+ {
+  "n": 39,
+  "cat": "AI endpoint",
+  "name": "Jailbreak: developer mode",
+  "held": true
+ },
+ {
+  "n": 40,
+  "cat": "AI endpoint",
+  "name": "Jailbreak: fake system token",
+  "held": true
+ },
+ {
+  "n": 41,
+  "cat": "AI endpoint",
+  "name": "Extract the system prompt",
+  "held": true
+ },
+ {
+  "n": 42,
+  "cat": "AI endpoint",
+  "name": "Smuggle an API key through the AI",
+  "held": true
+ },
+ {
+  "n": 43,
+  "cat": "AI endpoint",
+  "name": "Paste to run PowerShell command",
+  "held": true
+ },
+ {
+  "n": 44,
+  "cat": "Exposure",
+  "name": "Read /.env",
+  "held": true
+ },
+ {
+  "n": 45,
+  "cat": "Exposure",
+  "name": "Read /.env.local",
+  "held": true
+ },
+ {
+  "n": 46,
+  "cat": "Exposure",
+  "name": "Read /.git/config",
+  "held": true
+ },
+ {
+  "n": 47,
+  "cat": "Exposure",
+  "name": "Read /.git/HEAD",
+  "held": true
+ },
+ {
+  "n": 48,
+  "cat": "Exposure",
+  "name": "Read /api/_lib/security.js",
+  "held": true
+ },
+ {
+  "n": 49,
+  "cat": "Exposure",
+  "name": "Read /api/_lib/directory.js",
+  "held": true
+ },
+ {
+  "n": 50,
+  "cat": "Exposure",
+  "name": "Read /api/_lib/directory",
+  "held": true
+ },
+ {
+  "n": 51,
+  "cat": "Exposure",
+  "name": "Read /..%2f..%2fetc/passwd",
+  "held": true
+ },
+ {
+  "n": 52,
+  "cat": "Exposure",
+  "name": "Read /%2e%2e/api/_lib/security.js",
+  "held": true
+ },
+ {
+  "n": 53,
+  "cat": "Exposure",
+  "name": "Read /api/admin",
+  "held": true
+ },
+ {
+  "n": 54,
+  "cat": "Exposure",
+  "name": "Read /api/debug",
+  "held": true
+ },
+ {
+  "n": 55,
+  "cat": "Headers",
+  "name": "Downgrade to unencrypted HTTP (HSTS missing)",
+  "held": true
+ },
+ {
+  "n": 56,
+  "cat": "Headers",
+  "name": "Run an inline script on the page (CSP)",
+  "held": true
+ },
+ {
+  "n": 57,
+  "cat": "Headers",
+  "name": "Inject raw HTML into the page (Trusted Types)",
+  "held": true
+ },
+ {
+  "n": 58,
+  "cat": "Headers",
+  "name": "Trick the browser into running a text file as code (MIME sniffing)",
+  "held": true
+ },
+ {
+  "n": 59,
+  "cat": "Headers",
+  "name": "Frame the app inside a fake site (clickjacking)",
+  "held": true
+ },
+ {
+  "n": 60,
+  "cat": "Headers",
+  "name": "Steal the sign in cookie with a script or over HTTP",
+  "held": true
+ }
+]
